@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+
+html, body{
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+}
+#wrapper{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#efefef;
+}
+/*.super-cool-nav .action-button:first-child {
+  margin-right: 60px;
+}*/
+.action-button {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  display: inline-flex;
+  flex-direction:row;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.action-button__text{
+  display: inline-block;
+  margin-right: 36px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  transition: all .5s ease;
+}
+.action-button--reversed .action-button__text {
+  margin-right: 0;
+  margin-left: 38px;
+}
+.action-button__shapes {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.action-button--reversed .action-button__shapes{
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.action-button--reversed .action-button__shapes{
+  transform: rotate(180deg);
+}
+.action-button__rectangle {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  transform: translateY(-50%) scaleX(1);
+  width: 50px;
+  height: 2px;
+  background-color: #80828a;
+  transform-origin: right;
+  transition: all .5s ease;
+}
+.action-button__arrow {
+  position: absolute;
+  top: 26px;
+  left: 27px;
+}
+.action-button__arrow polygon {
+  fill: #80828a;
+  transition: all .6s ease;
+}
+.action-button__circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.action-button__circle--base{
+  transform: rotate(-154deg);
+  transition: all .6s ease;
+  opacity: .6;
+}
+.action-button__circle--base circle{
+  stroke-width: 2px;
+  stroke: #80828a;
+  fill: none;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 50;
+}
+.action-button__circle--base circle, .action-button__circle--fill, .action-button__circle--fill circle {
+  transition: all .6s ease;
+}
+.action-button__circle--fill circle {
+  stroke-width: 2px;
+  stroke: #ef3f4a;
+  fill: none;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+}
+body .action-button:hover .action-button__text{
+  transform: translateX(22px);
+}
+body .action-button--reversed:hover .action-button__text{
+  transform: translateX(-22px);
+}
+body .action-button:hover .action-button__rectangle{
+  transform: translateY(-50%) scaleX(0);
+}
+body .action-button:hover .action-button__arrow polygon{
+  fill: #ef3f4a;
+}
+body .action-button:hover .action-button__circle--base{
+  transform: rotate(-180deg);
+}
+body .action-button:hover .action-button__circle--base circle{
+  stroke-dashoffset: 10;
+}
+body .action-button:hover .action-button__circle--fill{
+  transform: rotate(-200deg);
+}
+body .action-button:hover .action-button__circle--fill circle{
+  stroke-dashoffset: 10;
+}

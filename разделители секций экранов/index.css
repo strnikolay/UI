@@ -200,3 +200,86 @@
     position: relative;
     z-index: -1;
 }
+
+
+
+.nine .section {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}        
+.nine  .section-white-t {
+    padding-top: 30px;
+}
+.nine  .section-white-b {
+    padding-bottom: 30px;
+}
+.nine  .section-color {
+    background-color: #337AB7;
+    padding: 20px 0;
+    color: #FFF;
+}
+.nine  .separator-white {
+    background-color: #FFF;
+    font: 0/0 a;
+    position: relative;
+    z-index: -1;    
+}
+.nine  .separator-color {
+    background-color: #337AB7;
+    font: 0/0 a;
+    position: relative;
+    z-index: -1;    
+}
+
+
+.ten .section {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}    
+.ten .section-white {
+    padding: 30px;
+}
+.ten .section-color {
+    background-color: #337AB7;
+    padding: 30px 0;
+    color: #FFF;
+}
+.ten .separator-white {
+    background-color: #FFF;
+    font: 0/0 a;
+}
+.ten .separator-color {
+    background-color: #337AB7;
+    font: 0/0 a;
+}
+
+.eleven .section {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}        
+.eleven .section-white-t {
+    padding-top: 30px;
+}
+.eleven .section-white-b {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.eleven .section-color {
+    background-color: #337AB7;
+    padding-top: 40px;
+    color: #FFF;
+}
+.eleven .separator-white {
+    background-color: #FFF;
+    font: 0/0 a;
+}
+.eleven .separator-color {
+    background-color: #337AB7;
+    font: 0/0 a;
+}
