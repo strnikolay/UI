@@ -1,35 +1,26 @@
-import React, { Component } from "react";
+import React from "react";
+import BinList from "./components/bin-list/bin-list";
+import ShopList from "./components/shop-list/shop-list";
+import Navigation from "./components/navigation";
 import {Routes, Route } from "react-router-dom";
-import Navigation from "./navigation";
-
-/*import BinList from "";
-import ShopList from "*/
-
-class App extends Component {
-  state = {binList: []};
 
 
-  render() {
-    return (
-      <main className="app">
-        <Navigation />
+export default function App() {  
+  return (
+    <main className="app">
+      <Navigation />
         <Routes>
-        <Route
-          path="/"
-          element={
-            <ShopList />
-          }
-        />
-        <Route
-          path="/bin-list"
-          element={
-              <BinList/>
-          }
-        />
+          <Route
+            path="/"
+            element={<ShopList />}
+          />
+          <Route
+            path="/bin-list"
+            element={<BinList/>}
+          />
         </Routes>
       </main>
     );
   }
-}
 
-export default App;
+
