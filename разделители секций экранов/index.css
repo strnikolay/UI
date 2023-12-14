@@ -310,3 +310,8 @@
     background: linear-gradient(90deg, #285f8f, #337AB7);
     mix-blend-mode: screen;
 }
+
+.card:before {
+    background: repeating-linear-gradient(45deg, #000, #999, #000 5%), linear-gradient(45deg, #777, #000);
+    background-blend-mode: screen;
+}

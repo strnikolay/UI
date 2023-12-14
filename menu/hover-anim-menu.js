@@ -1,9 +1,12 @@
 const letterWrapClass = 'letter-wrap';
 const letterWrapElements = document.getElementsByClassName(letterWrapClass);
-[...letterWrapElements].forEach(el => {
+console.log(letterWrapElements)
+letterWrapElements.forEach(el => {
   letterWrap(el, letterWrapClass);
   letterAnimation(el, letterWrapClass);
 });
+
+
 function letterWrap(el, cls) {
   const words = el.textContent.split(' ');
   const letters = []; 
@@ -24,6 +27,8 @@ function letterWrap(el, cls) {
   });
   return el.innerHTML = letters.join(' ');
 }
+
+
 function letterAnimation(el, cls) {
   const tl = new TimelineMax({ paused: true });
   const characters = el.querySelectorAll(`.${cls}__char-inner`);
