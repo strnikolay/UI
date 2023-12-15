@@ -1,7 +1,11 @@
 const letterWrapClass = 'letter-wrap';
 const letterWrapElements = document.getElementsByClassName(letterWrapClass);
+
 console.log(letterWrapElements)
-letterWrapElements.forEach(el => {
+
+var links_as_arr = Array.from(letterWrapElements);
+
+links_as_arr.forEach(el => {
   letterWrap(el, letterWrapClass);
   letterAnimation(el, letterWrapClass);
 });
