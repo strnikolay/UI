@@ -1,0 +1,39 @@
+
+.screen-1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+} 
+
+.screen-1-wraper{
+  height: 100vh;
+  max-height: 1600px;
+  filter: drop-shadow(-15px 10px 15px #000);
+}
+
+@media screen and (max-width: 1900px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+ 
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 640px) {
+ 
+}
+
+@media screen and (max-width: 360px) {
+ 
+}
