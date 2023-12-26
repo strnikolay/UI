@@ -1,0 +1,36 @@
+
+.screen6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 1920px) {
+ 
+}
+
+@media screen and (max-width: 1600px) {
+ 
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+}
+
+
+@media screen and (max-width: 320px) {
+ 
+}
+
+
+
+
+
+
+
+
