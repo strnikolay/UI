@@ -5,7 +5,32 @@
   align-items: center;
 }
 
-
+.tree .section {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}        
+.tree .section-white-t {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.tree .section-white-b {
+  padding-bottom: 30px;
+}
+.tree .section-color {
+  background-color: #337AB7;
+  padding: 150px 0;
+  color: #FFF;
+}
+.tree .separator-white {
+  background-color: #FFF;
+  font: 0/0 a;
+}
+.tree .separator-color {
+  background-color: #337AB7;
+  font: 0/0 a;
+}
 
 
 @media screen and (max-width: 1920px) {

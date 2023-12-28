@@ -1,7 +1,7 @@
-import "./screen1.css"
+import "./PoligonScreenSeparator.css"
 
 
-function MainFirstScreen () {
+function PoligonScreenSeparator () {
 
   return(
   <div className="one">
@@ -213,6 +213,6 @@ function MainFirstScreen () {
   </div>   
 )}
 
-export default MainFirstScreen;
+export default PoligonScreenSeparator;
 
  
