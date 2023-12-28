@@ -4,7 +4,7 @@ function MainThirdScreen () {
 
 return(
   
-  <div class="screen3">
+  <div className="screen3">
     
   </div>
 

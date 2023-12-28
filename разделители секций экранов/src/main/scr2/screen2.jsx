@@ -4,15 +4,15 @@ import "./screen2.css"
 function MainSecondScreen () {
 
 return(
-<div class="screen2">
-<div class="two">
-    <section class="section section-white">
+<div className="screen2">
+<div className="two">
+    <section className="section section-white">
         Светлая секция
     </section>    
-    <section class="section section-color">
+    <section className="section section-color">
         Темная секция    
     </section>
-    <section class="section section-white">
+    <section className="section section-white">
         Светлая секция
     </section>
 </div>

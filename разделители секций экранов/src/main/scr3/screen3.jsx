@@ -4,21 +4,21 @@ function MainThirdScreen () {
 
 return(
   
-  <div class="screen3">
-    <div class="tree">
-    <section class="section section-white-t">
+  <div className="screen3">
+    <div className="tree">
+    <section className="section section-white-t">
         Светлая секция
     </section>    
-    <div class="separator-color">
+    <div className="separator-color">
         <img src="./img/upvector2.svg" alt="" srcset=""/>
     </div>
-    <section class="section section-color">
+    <section className="section section-color">
         Темная секция    
     </section>    
-    <div class="separator-white">
+    <div className="separator-white">
         <img src="./img/downvector2.svg" alt="" srcset=""/>
     </div>
-    <section class="section section-white-b">
+    <section className="section section-white-b">
         Светлая секция
     </section>
 

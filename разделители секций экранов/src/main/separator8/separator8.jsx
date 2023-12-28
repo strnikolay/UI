@@ -4,12 +4,12 @@ function MainThirdScreen () {
 
 return(
   
-  <div class="screen3">
-    <div class="eight">
-    <section class="section section-white-t">
+  <div className="screen3">
+    <div className="eight">
+    <section className="section section-white-t">
         Светлая секция
     </section>    
-    <div class="separator-color">
+    <div className="separator-color">
         <svg width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
             <g transform="translate(-18,-78)">
                 <path style="fill:#BFE2FF;" d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
@@ -17,10 +17,10 @@ return(
             </g>
         </svg>
     </div>
-    <section class="section section-color">
+    <section className="section section-color">
         Темная секция    
     </section>    
-    <div class="separator-white">
+    <div className="separator-white">
         <svg width="100%" height="120" viewBox="0.1 0.1 180 40" preserveAspectRatio="none">
             <g transform="translate(-18,-78)">
                 <path style="fill:#BFE2FF;" d="M 31.615583,86.351641 H 192.16499 v 26.901969 c 0,0 -32.03411,-14.237983 -59.62682,-12.72484 -22.34188,1.2252 -54.779359,9.72634 -54.779359,9.72634 0,0 -22.029534,3.62882 -34.471238,-1.88988 -12.441702,-5.51871 -11.67199,-22.013589 -11.67199,-22.013589 z" />
@@ -28,7 +28,7 @@ return(
             </g>
         </svg>
     </div>
-    <section class="section section-white-b">
+    <section className="section section-white-b">
         Светлая секция
     </section>
 </div>
