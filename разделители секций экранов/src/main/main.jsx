@@ -11,8 +11,8 @@ function Main () {
     return(    
         <>
             <MainFirstScreen/>
-            <MainSecondScreen/>
-            <MainThirdScreen/>
+            {/*<MainSecondScreen/>
+            <MainThirdScreen/>*/}
         </>
     )
 }
