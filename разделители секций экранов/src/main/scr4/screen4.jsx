@@ -1,6 +1,8 @@
 import "./screen4.css"
+import upwave from "./img/upwave.svg"
+import downwave from "./img/downwave.svg"
 
-function MainThirdScreen () {
+function MainScreen4 () {
 
 return(
   
@@ -10,13 +12,13 @@ return(
         Светлая секция
     </section>    
     <div className="separator-white">
-        <img src="./img/upwave.svg" alt="" srcset="" />
+        <img src={upwave} alt="" srcset="" />
     </div>
     <section className="section section-color">
         Темная секция    
     </section>    
     <div className="separator-color">
-        <img src="./img/downwave.svg" alt="" srcset="" />
+        <img src={downwave} alt="" srcset="" />
     </div>
     <section className="section section-white">
         Светлая секция
@@ -26,4 +28,4 @@ return(
 
 )}
 
-export default MainThirdScreen;   
+export default MainScreen4;   

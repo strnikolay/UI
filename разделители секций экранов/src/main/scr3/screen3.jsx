@@ -1,4 +1,6 @@
 import "./screen3.css"
+import upvector from "./img/upvector2.svg"
+import downvector from "./img/downvector2.svg"
 
 function MainThirdScreen () {
 
@@ -10,13 +12,13 @@ return(
         Светлая секция
     </section>    
     <div className="separator-color">
-        <img src="./img/upvector2.svg" alt="" srcset=""/>
+        <img src={upvector} alt="" srcset=""/>
     </div>
     <section className="section section-color">
         Темная секция    
     </section>    
     <div className="separator-white">
-        <img src="./img/downvector2.svg" alt="" srcset=""/>
+        <img src={downvector} alt="" srcset=""/>
     </div>
     <section className="section section-white-b">
         Светлая секция
