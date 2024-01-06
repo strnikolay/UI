@@ -1,0 +1,14 @@
+
+.footer {
+  /*font-size: ;
+  line-height: ;
+  padding: 0 0 0 0;
+  background-color: ;*/
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  /*color: ;*/
+  text-decoration: none;
+}

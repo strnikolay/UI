@@ -1,0 +1,46 @@
+header {
+  width: 100%;
+  background-color: #0e0e0e;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_wrapper{
+  width: 90%;
+  max-width: 1128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header .logo {
+
+}
+
+header nav {
+ 
+}
+
+header nav a {
+ 
+}
+
+
+@media screen and (max-width: 1400px) { 
+
+}
+
+@media screen and (max-width: 960px) { 
+
+}
+
+@media screen and (max-width: 640px) { 
+
+}
+
+@media screen and (max-width: 360px) { 
+
+}
