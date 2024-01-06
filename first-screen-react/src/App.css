@@ -1,0 +1,73 @@
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+html{
+  font-size: calc(100vw / 1920 * 10);
+}
+
+@media (max-width: 1024px) {
+  html{
+  font-size: calc(100vw / 768 * 10);
+  }
+}
+
+@media (max-width: 767px) {
+  html{
+  font-size: calc(100vw / 500 * 10);
+  }
+}
+
+@media (max-width: 500px) {
+  html{
+  font-size: calc(100vw / 375 * 10);
+  }
+}
+
+.App {
+  overflow-x: hidden; 
+}
+
+/*#root{
+  --main-width: 100vw
+}*/
+
+
+/** временная сетка для верстки*/
+/*.App::after {
+  content: "";
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  opacity: 0.15;
+  left: 2.0833333333%;
+  right: 2.0833333333%;
+  background: repeating-linear-gradient(90deg, #00f 0, #00f 8.5326086957%, transparent 8.5326086957%, transparent 10.1630434783%);
+  pointer-events: none;
+}*/
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, li {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a, h1, h2, h3, div, p, span {
+  font-family: Benzin-Medium, 'Source Sans Pro';
+}
+
+
