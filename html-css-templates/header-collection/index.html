@@ -3,47 +3,58 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <meta name="description" content="">
         <meta name="author" content="">
 
         <title>header collection</title>
 
+        <!-- CSS FILES -->                
+        <link href="css/new-style.css" rel="stylesheet">      
     </head>
     
     <body>
-        <header class="header-one">
-            <div class="container">
-                <div class="row">
-                    <div class="nav-wrapper">    
-                <a class="header-one-text" href="index.html">
-                    <div class="logo"></div>
-                    <span>LOGO</span>
-                </a>
 
-                <ul class="social-icon">
-                    <span class="social-text">СВЯЗАТЬСЯ С НАМИ </span>
-                    <li class="social-icon-item">
-                        <a href="#" class="instagram"></a>
-                    </li>
-                    <li class="social-icon-item">
-                        <a href="#" class="twitter"></a>
-                    </li>
-                    <li class="social-icon-item">
-                        <a href="#" class="whatsapp"></a>
-                    </li>
-                </ul>
+        <main>
+            <header class="site-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="nav-wrapper">    
+                            <a class="header-logo" href="index.html">
+                                <div class="logo"></div>
+                                <span>LOGO</span>
+                            </a>
 
-                <div>
-                    <a href="#" class="subscribe-btn">ПОДПИСАТЬСЯ
-                        <i class="arrow"></i>
-                    </a>
+                            <ul class="social-icon">
+                                <span class="text">СВЯЗАТЬСЯ С НАМИ </span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link instagram"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link twitter"></a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link whatsapp"></a>
+                                </li>
+                            </ul>
+
+                            <div>
+                                <a href="#" class="custom-btn" data-bs-toggle="modal" data-bs-target="#subscribeModal">ПОДПИСАТЬСЯ
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+
+                            <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
+
+                        </div>
+                    </div>
                 </div>
+            </header>
 
-                <a class="burger-menu"></a>   
-            </div>
-            </div>           
-            </div>
-        </header>
+
+        </main>
+
     </body>
 </html>
